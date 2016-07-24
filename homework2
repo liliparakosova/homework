@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<label>Radius
+<br>
+<input id="radius" type="number">
+</label>
+<br>
+<br>
+<label>Volume
+<br>
+<input type="text" id="pres">
+</label>
+<br>
+<br>
+<button id="add-btn" onclick="bgGreen()">Calculate</button>
+<script type="text/javascript">
+
+var a=document.getElementById('radius');
+var b=document.getElementById('pres');
+a.innerHTML= document.getElementById('radius').value;
+var a1=a.innerHTML;
+var rad=parseFloat(a1);
+var volume=rad*rad*rad*3.14*(4/3);
+var label = document.querySelector('label');
+
+
+ 
+</script>
+
+</body>
+</html>
