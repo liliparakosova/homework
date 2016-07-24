@@ -1,4 +1,2 @@
 # homework
-javascript
-jhsffkj
-khkhkhk
+this my solution
